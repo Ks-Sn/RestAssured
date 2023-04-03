@@ -115,7 +115,7 @@ public class Demo2 {
     @Test
     public void findUserTest(){
         //Aatmaj Saini
-        requestSpecification.queryParam("name", "Elon Mask");
+        requestSpecification.queryParam("name", "Elon Maskeee");
         response = requestSpecification
                 .request(Method.GET, "users/");
         response.prettyPrint();
